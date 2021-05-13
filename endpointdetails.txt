@@ -65,7 +65,7 @@ endpoint - /showroom
 
 github link - https://github.com/srinatsrinat/hall-booking
 
-heroku link - https://dashboard.heroku.com/apps/hall-bookingg
+heroku link - https://hall-bookingg.herokuapp.com/
 
 
 
