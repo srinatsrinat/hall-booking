@@ -1,0 +1,71 @@
+using postman
+
+//creating a room - goes to rooms
+
+endpoint - /createroom
+{
+    "room_id":1,
+    "no_of_seats": 2,
+    "rate_in_rupees_per_hour": 200,
+    "amenities": ["wifi", "TV", "AC","heater"],
+    "status": "available"
+}
+{
+    "room_id":2,
+    "no_of_seats": 3,
+    "rate_in_rupees_per_hour": 200,
+    "amenities": ["wifi", "TV", "AC","heater"],
+    "status": "available"
+}
+//booking a room - goes to rooms 
+
+
+endpoint - /bookroom
+
+{
+    "customer_name" : "abc",	
+    "room_id":1,
+    "booking_date": "1/1/9999",
+    "start_time": "9:45am,1/1/9999",
+    "end_time": "10;45am, 3/1/9999"
+
+
+}
+
+//get booked rooms - from rooms 
+
+endpoint - /bookings
+
+{
+	"room_id" : ,
+	"status" :  ,
+	"customer_name" : ,
+	"booking_date" : ,
+	"start_time" : ,
+	"end_time" : 
+
+}
+
+//get customer details - from rooms 
+
+endpoint - /customers
+
+{
+	"customer_name" : ,
+	"room_id" : ,
+	"booking_date" : ,
+	"start_time" : ,
+	"end_time" : 
+
+}
+
+//displaying all rooms - from rooms
+
+endpoint - /showroom
+
+github link - https://github.com/srinatsrinat/hall-booking
+
+heroku link - https://dashboard.heroku.com/apps/hall-bookingg
+
+
+
