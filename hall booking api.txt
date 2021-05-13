@@ -1,0 +1,50 @@
+//creating a room - goes to rooms
+
+{
+    "room_id":1,
+    "no_of_seats": 2,
+    "rate_in_rupees_per_hour": 200,
+    "amenities": ["wifi", "TV", "AC","heater"],
+    "status": "available"
+}
+{
+    "room_id":2,
+    "no_of_seats": 3,
+    "rate_in_rupees_per_hour": 200,
+    "amenities": ["wifi", "TV", "AC","heater"],
+    "status": "available"
+}
+//booking a room - goes to rooms 
+
+{
+    "customer_name" : "abc",	
+    "room_id":1,
+    "booking_date": "1/1/9999",
+    "start_time": "9:45am,1/1/9999",
+    "end_time": "10;45am, 3/1/9999"
+
+
+}
+
+//get booked rooms - from rooms 
+
+{
+	"room_id" : ,
+	"status" :  ,
+	"customer_name" : ,
+	"booking_date" : ,
+	"start_time" : ,
+	"end_time" : 
+
+}
+
+//get customer details - from rooms 
+
+{
+	"customer_name" : ,
+	"room_id" : ,
+	"booking_date" : ,
+	"start_time" : ,
+	"end_time" : 
+
+}
